@@ -1,0 +1,16 @@
+ $colorDefault: #00695C;
+ .imagem-esg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .esg-geral {
+    padding: 1rem 0;
+ }
+
+.fundo {
+    background-color:  $colorDefault;
+    padding: 2rem;
+    border-radius: 8px;
+}

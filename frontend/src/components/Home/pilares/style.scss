@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../../../Roboto/Roboto-Medium.ttf');
+}
+
+$colorDefault: #00695C;
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: url('../../../Imagens/conexão.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50%;
+    width: 100%;
+    height: 60vh;
+}
+.circle1, .circle2, .circle3 {
+   background-color: $colorDefault;
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-size: 1.5rem;
+   padding:5rem;
+   border-radius: 100%;
+   font-family: 'Roboto-Medium';
+   text-align: center;
+   margin: 0 4rem;
+}
+
+.circle2 {
+    position: relative;
+    top: 12rem;
+}

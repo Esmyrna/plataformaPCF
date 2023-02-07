@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../../Roboto/Roboto-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+$colorDefault: #00695C;
+
+@mixin flexbox($justify-content, $align-items) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+.nav {
+    padding: .5rem 3rem .5rem 3rem;
+    background-color: #fff;
+    @include flexbox($justify-content: space-between, $align-items: center)
+
+}
+.nav .logo {
+    font-family: 'Roboto', sans-serif;
+    color: $colorDefault;
+}
+.btns .btn-login, .btn-cadastro {
+    margin-left: .4rem;
+    font-family: 'Roboto-Regular';
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: .5rem 2rem .5rem 2rem;
+}
+.btn-cadastro {
+    background-color: $colorDefault;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn-cadastro a {
+    color: #fff;
+}
+
+.btn-cadastro a:hover {
+    color:  $colorDefault;
+}
+.btn-cadastro:hover   {
+    background-color: transparent;
+    color: $colorDefault;
+    border: 2px solid $colorDefault;
+}
+.btn-login {
+    border: 2px solid $colorDefault;
+    background-color: transparent;
+    color: $colorDefault;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-login:hover {
+    color: #fff;
+    background-color: $colorDefault;
+    transition: .3s all;
+}
