@@ -54,8 +54,6 @@ $colorDefault: #00695C;
     
 
 }
-
-
 .inputs input {
     border-radius: 8px;
 }
@@ -71,10 +69,37 @@ $colorDefault: #00695C;
 }
 
 .inputs-iniciais2 {
-    width: 20%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
+    border-bottom: 1px solid #C2C4CC;
+
+}
+textarea {
+    resize: none;
+    background-color: #E6E9F2;
+    border: 1px solid #C2C4CC;
+    border-radius: 8px;
+}
+
+.redes {
+    margin: 0 .4rem;
+}
+.inputs-textarea {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.inp2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 .inputs-complementares{
  
@@ -106,6 +131,10 @@ $colorDefault: #00695C;
     flex-direction: row;
     
 }
+.file {
+    width: 20%;
+     
+}
 
 .radio input {
     margin: 1.5rem 
@@ -116,14 +145,28 @@ $colorDefault: #00695C;
 .inputs-secundarios1, .inputs-secundarios2 {
     margin: 0 1rem;
 }
-
-input[type="radio"]{
-    color: $colorDefault;
-    border: none;
-    width: 20px;
+.inputs-secundarios {
+    margin: 3rem 0;
 }
 
- 
+.inputs-secundarios h2{
+    color: #515255;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Roboto-Regular";
+    margin: 1rem 0;
+}
+.line1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+     
+}
+
+.line1 label {
+    margin: 0 .5rem;
+} 
 // buttons
 
 .buttons-cadastro {

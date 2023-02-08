@@ -1,8 +1,11 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../../../components/Home/navbar';
 import './style.scss'
 function Empresa() {
-    function handleformpage(op1) {
-
+    function handleformpage(op2) {
+         const [link, setLink] = useState('/empresa2')
+        
     }
     return (
        <>
@@ -40,6 +43,7 @@ function Empresa() {
                         <input type="number" number="numero" />
                     </label>
                 </div>
+               
                 <div className="inputs-secundarios2">
                     <label for="estado">Estado
                         <input type="text" text="texto" />
@@ -58,12 +62,18 @@ function Empresa() {
 
                
                 <div className="radio">
-                <input onChange={handleformpage}type="radio" name="opcao" value="op1" checked/>
-                <input type="radio" name="opcao" value="op2"  />
+                 <input type="radio" name="opcao"   checked/>
+                <Link to="/empresa2">
+                  <input  type="radio" name="opcao"     />
+                </Link>
+            
               </div>
               <div className="buttons-cadastro">
-                    <button className="btn-cancel">Cancelar</button>
-                    <button className="btn-continue">Continuar</button>
+                     <button className="btn-cancel">Cancelar</button>
+                    <Link to="/empresa2">
+                      <button className="btn-continue">Continuar</button>
+                    </Link>
+                
               </div>
             </div>
         </div>
