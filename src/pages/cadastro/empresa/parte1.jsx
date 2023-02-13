@@ -63,7 +63,10 @@ function Empresa() {
                
               
               <div className="buttons-cadastro">
-                     <button className="btn-cancel">Cancelar</button>
+                <Link to="/inst">
+                <button className="btn-cancel">Cancelar</button>
+                </Link>
+     
                     <Link to="/empresa2">
                       <button className="btn-continue">Continuar</button>
                     </Link>

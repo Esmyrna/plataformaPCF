@@ -52,8 +52,11 @@ function EmpresaParte2() {
                     </div>
                   
                     <div className="buttons-cadastro">
-                     <button className="btn-cancel">Cancelar</button>
-                    <Link to="/empresa2">
+                        <Link to="/empresa">
+                        <button className="btn-cancel">Cancelar</button>
+                        </Link>
+                
+                    <Link to="/logado">
                       <button className="btn-continue">Continuar</button>
                     </Link>
                 

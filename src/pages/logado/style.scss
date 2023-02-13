@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../../../Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../../Roboto/Roboto-Regular.ttf');
+}
+$colorDefault: #00695C;
+.bloco-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 2rem 0;
+    
+}
+
+.sub-div1 {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+
+.sub-div1 h2 {
+    font-family: 'Roboto-Bold';
+    color: $colorDefault;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.sub-div2 {
+    width: 30%;
+     
+}
+.carrossel-geral {
+    width: 20%;
+}
+.carrossel-text {
+    background-color: #E6E9F2;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.carrossel-text h1 {
+    color: $colorDefault;
+    font-family: 'Roboto-Bold';
+    font-size:2rem;
+    margin: 1rem 0;
+}
+.carrossel-text h3 {
+    color: #000;
+    font-family: 'Roboto-Bold';
+}
+.carrossel-text p {
+    font-family: 'Roboto-Regular';
+}
+
+.btn-carrossel {
+    background-color: $colorDefault;
+    font-family: 'Roboto-Regular';
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+
+}

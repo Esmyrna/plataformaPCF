@@ -3,6 +3,7 @@ import connection from '../../../Imagens/connection-icon.png'
 import colaboration from '../../../Imagens/colaboracao-icon.png'
 import data from '../../../Imagens/dados-icon.png'
 import esg from '../../../Imagens/esg-icon.png'
+import { Link } from 'react-router-dom'
 function SobreUp() {
     return (
         <div className='all-sobreup'>
@@ -15,9 +16,12 @@ function SobreUp() {
 
                     Nosso proposito é criar aqui um um espaço que utiliza da tecnologia para articular indivíduos e organizações de multissetores, com proposito  incentivar a atuação coordenada para impulsionar o combate à fome e a redução do desperdício de alimentos no Brasil.
                 </p>
+                <Link to="/inst">
                 <button className="btn-sobruep">
                     Conecte-se
                 </button>
+                </Link>
+                
             </div>
             <div className="icons-sobreup">
                 <div className='column1'>
