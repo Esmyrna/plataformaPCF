@@ -72,3 +72,25 @@ $colorDefault: #00695C;
     border-radius: 8px;
 
 }
+
+.sub-div2{
+     
+}
+
+ 
+.sub-div2 h2{
+    font-size: 2rem;
+    font-family: 'Roboto-Bold';
+    color: $colorDefault;
+    margin: 1rem 0;
+}
+
+.sub-div2  form input {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+ 
+    
+}
