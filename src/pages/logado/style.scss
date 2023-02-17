@@ -74,7 +74,7 @@ $colorDefault: #00695C;
 }
 
 .sub-div2{
-     
+     width: 45%;
 }
 
  
@@ -91,6 +91,107 @@ $colorDefault: #00695C;
     font-size: 1rem;
     display: flex;
     flex-direction: row;
+    position: relative;
  
     
+}
+.submit-lente svg{
+     width: 40px;
+     position: absolute; 
+     top: 32%; 
+     right: 6%;
+     cursor: pointer;
+}
+
+.info-iniciativas h2 {
+    font-family: 'Roboto-Bold';
+    
+
+}
+
+.info-iniciativas h4, p{
+    font-family: 'Roboto-Regular';
+    margin: 1rem;
+}
+.sessao-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-div2 ul {
+    list-style: none;
+    text-align: center;
+}
+.lista2{
+    display: none;
+}
+ 
+@media screen and (min-width: 393px) and (max-width: 851px){ 
+    .bloco-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-div1{
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .mobile {
+        width: 100%;
+        margin: 3rem;
+    }
+
+    .sub-div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 3rem;
+         
+    }
+
+    .sub-div2 ul {
+        list-style: none;
+    }
+
+    .info-iniciativas h2 {
+        font-family: 'Roboto-Bold';
+        
+
+    }
+
+    .info-iniciativas h4, p{
+        font-family: 'Roboto-Regular';
+        margin: 1rem;
+    }
+
+
+    .sessao-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sessao-1 img {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .lista{
+        display: none;
+       
+    }
+    .info-iniciativas img {
+        width: 60%;
+    }
+
+    .submit-lente {
+        display: flex;
+        flex-direction: row;
+    }
+    .submit-lente svg{
+        width: 40px;
+        position: absolute; 
+        top: 1300px; 
+        right: 10%;
+        cursor: pointer;
+   }
 }

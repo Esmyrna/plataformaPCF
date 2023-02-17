@@ -1,10 +1,12 @@
 import Navbar from '../../components/Home/navbar';
 import Carrossel from './carrossel';
-import { AiOutlineSearch } from 'react-icons/ai'
+import {BsSearch} from 'react-icons/bs'
 import foto from '../../Imagens/foto-if.png'
+import mapa from '../../Imagens/mapa.png'
 import './style.scss'
 
 function Logado() {
+   
     return (
         <>
             <Navbar />
@@ -18,7 +20,7 @@ function Logado() {
                     <form>
                         <input type="text" />
                         <button class="submit-lente" type="submit">
-                             <AiOutlineSearch />
+                             <BsSearch />
                         </button>
                     </form>
                     <div className="sessao-1">
@@ -46,6 +48,14 @@ function Logado() {
                                     </div>
                                 </li>
 
+                               
+                            </ul>
+                        </div>
+                        <div className="mapa">
+                            <img src={mapa} />
+                        </div>
+                        <div className="lista2">
+                            <ul>
                                 <li>
                                     <div className="info-iniciativas">
                                         <div className="imagem">
@@ -56,11 +66,9 @@ function Logado() {
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ratione earum. Magnam perferendis, ea cupiditate quod libero dolor reprehenderit.</p>
                                     </div>
                                 </li>
-                            </ul>
-                        </div>
-                        <div className="mapa">
+                                </ul>
+                            </div>
 
-                        </div>
                     </div>
                 </div>
             </div>

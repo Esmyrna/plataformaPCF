@@ -6,7 +6,7 @@ import foto3 from '../../Imagens/carrossel3.png'
 import './style.scss'
 function Carrossel() {
     return(
-        <Carousel>
+        <Carousel className="mobile">
                
                 <div className="carrossel-text">
                     <img src={foto2}  />
